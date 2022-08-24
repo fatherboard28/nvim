@@ -1,0 +1,25 @@
+nvim-treesitter[phpdoc]: Error during `npm install` (required for parser generation of phpdoc with npm dependencies)
+npm WARN old lockfile
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile
+npm ERR! code 1
+npm ERR! path /Users/jonathan/.local/share/nvim/tree-sitter-phpdoc/node_modules/tree-sitter-cli
+npm ERR! command failed
+npm ERR! command sh -c -- node install.js
+npm ERR! /Users/jonathan/.local/share/nvim/tree-sitter-phpdoc/node_modules/tree-sitter-cli/install.js:24
+npm ERR!   throw new Error(`Cannot install tree-sitter-cli for architecture ${process.arch}`);
+npm ERR!   ^
+npm ERR!
+npm ERR! Error: Cannot install tree-sitter-cli for architecture arm64
+npm ERR!     at Object.<anonymous> (/Users/jonathan/.local/share/nvim/tree-sitter-phpdoc/node_modules/tree-sitter-cli/install.js:24:9)
+npm ERR!     at Module._compile (node:internal/modules/cjs/loader:1105:14)
+npm ERR!     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+npm ERR!     at Module.load (node:internal/modules/cjs/loader:981:32)
+npm ERR!     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+npm ERR!     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+npm ERR!     at node:internal/main/run_main_module:17:47
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/jonathan/.npm/_logs/2022-08-24T14_27_43_344Z-debug-0.log
