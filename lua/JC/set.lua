@@ -23,7 +23,6 @@ vim.opt.guioptions = "cimgIk"
 vim.opt.mouse = "a"
 
 vim.opt.termguicolors = true
-vim.opt.termguicolors = true                    -- set term gui colors (most terminals support this)
 vim.opt.cmdheight = 1                           -- more space in the neovim command line for displaying messages
 vim.opt.completeopt = { "menuone", "noselect" } -- mostly just for cmp
 vim.opt.guifont = "monospace:h17"               -- the font used in graphical neovim applications
@@ -36,8 +35,5 @@ vim.opt.smartcase = true                        -- smart case
 vim.opt.showtabline = 0                         -- always show tabs
 vim.opt.cmdheight = 1
 
-vim.opt.colorcolumn = "80"
-vim.opt.listchars.trail ='•'
-vim.opt.listchars.tab = '>'
 vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8

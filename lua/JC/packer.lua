@@ -42,38 +42,64 @@ packer.init {
 return packer.startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
-  use 'sbdchd/neoformat'
-  use 'vim-airline/vim-airline'
-  use 'wlangstroth/vim-racket'
-  use 'sheerun/vim-polyglot'
-  use 'preservim/tagbar'
-  use 'universal-ctags/ctags'
-  use 'luochen1990/rainbow'
-  use 'vim-syntastic/syntastic'
-  use 'itchyny/lightline.vim'
-  use 'tpope/vim-surround'
-  use 'tommcdo/vim-lion'
-  use 'Shirk/vim-gas'
-  use 'ntpeters/vim-better-whitespace'
+
+  -- Lua stuff
   use 'nvim-lua/plenary.nvim'
+
+  --Code formatter
+  use 'sbdchd/neoformat'
+
+  --Hightlighting ?
+  use 'wlangstroth/vim-racket'
+
+  --Tags for files
+  use 'universal-ctags/ctags'
+  use 'preservim/tagbar'
+
+  --bracket coloring
+  use 'luochen1990/rainbow'
+
+  --syntax checker
+  --use 'dense-analysis/ale'
+
+  -- Change what surrounds stuff
+  use 'tpope/vim-surround'
+
+  -- allows you to align code
+  use 'tommcdo/vim-lion'
+
+  -- More syntax Hightlighting
+  use 'Shirk/vim-gas'
+
+  -- Popup windows
   use 'nvim-lua/popup.nvim'
-  use 'hrsh7th/nvim-cmp'
-  use 'hrsh7th/cmp-nvim-lsp'
+
   use 'sheerun/vim-polyglot'
   use 'numToStr/Comment.nvim'
   use 'ellisonleao/gruvbox.nvim'
   use 'windwp/nvim-autopairs'
   use 'JoosepAlviste/nvim-ts-context-commentstring'
-  use "kyazdani42/nvim-web-devicons"
+
+  --File viewer
   use "kyazdani42/nvim-tree.lua"
-  use "akinsho/bufferline.nvim"
-  use "moll/vim-bbye"
+
+  -- Better file closser (uses buffers)
+  --use "moll/vim-bbye"
+
+  --Required for following plugins
+  use "kyazdani42/nvim-web-devicons"
+  --Status Bar at bottom of screen
   use "nvim-lualine/lualine.nvim"
-  use "akinsho/toggleterm.nvim"
-  use "ahmedkhalf/project.nvim"
+  --Greeter
   use "goolord/alpha-nvim"
+  --Buffer line
+  use "akinsho/bufferline.nvim"
 
+  --Terminal
+  use "akinsho/toggleterm.nvim"
 
+  -- Project manager
+  use "ahmedkhalf/project.nvim"
 
   --cmp
   use  "hrsh7th/nvim-cmp" -- The completion plugin
@@ -82,7 +108,6 @@ return packer.startup(function(use)
   use  "saadparwaiz1/cmp_luasnip" -- snippet completions
   use  "hrsh7th/cmp-nvim-lsp"
   use  "hrsh7th/cmp-nvim-lua"
-  
 
   -- snippets
   use  "L3MON4D3/LuaSnip" --snippet engine
@@ -93,6 +118,7 @@ return packer.startup(function(use)
   use  "williamboman/nvim-lsp-installer" -- simple to use language server installer
   use  "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
   use  "RRethy/vim-illuminate"
+
   -- Telescope
   use  "nvim-telescope/telescope.nvim"
 
@@ -102,10 +128,15 @@ return packer.startup(function(use)
   -- Git
   use  "lewis6991/gitsigns.nvim"
 
-  -- DAP
+  -- DELEATED --
+  --[[ DAP
   use "mfussenegger/nvim-dap"
   use "rcarriga/nvim-dap-ui"
-  use "ravenxrz/DAPInstall.nvim"
+  use "ravenxrz/DAPInstall.nvim"--]]
+
+  --use 'itchyny/lightline.vim'
+  --use 'vim-airline/vim-airline'
+
 
   if PACKER_BOOTSTRAP then
     require("packer").sync()

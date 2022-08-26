@@ -74,11 +74,6 @@ _G.packer_plugins = {
     path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
-  ["DAPInstall.nvim"] = {
-    loaded = true,
-    path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/DAPInstall.nvim",
-    url = "https://github.com/ravenxrz/DAPInstall.nvim"
-  },
   LuaSnip = {
     loaded = true,
     path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/LuaSnip",
@@ -139,11 +134,6 @@ _G.packer_plugins = {
     path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
-  ["lightline.vim"] = {
-    loaded = true,
-    path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/lightline.vim",
-    url = "https://github.com/itchyny/lightline.vim"
-  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/lualine.nvim",
@@ -168,16 +158,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
-  },
-  ["nvim-dap"] = {
-    loaded = true,
-    path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/nvim-dap",
-    url = "https://github.com/mfussenegger/nvim-dap"
-  },
-  ["nvim-dap-ui"] = {
-    loaded = true,
-    path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
-    url = "https://github.com/rcarriga/nvim-dap-ui"
   },
   ["nvim-lsp-installer"] = {
     loaded = true,
@@ -253,16 +233,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
-  },
-  ["vim-airline"] = {
-    loaded = true,
-    path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/vim-airline",
-    url = "https://github.com/vim-airline/vim-airline"
-  },
-  ["vim-bbye"] = {
-    loaded = true,
-    path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/vim-bbye",
-    url = "https://github.com/moll/vim-bbye"
   },
   ["vim-better-whitespace"] = {
     loaded = true,
