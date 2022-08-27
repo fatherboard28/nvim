@@ -174,16 +174,6 @@ _G.packer_plugins = {
     path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
     url = "https://github.com/kyazdani42/nvim-tree.lua"
   },
-  ["nvim-treesitter"] = {
-    loaded = true,
-    path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
-    url = "https://github.com/nvim-treesitter/nvim-treesitter"
-  },
-  ["nvim-ts-context-commentstring"] = {
-    loaded = true,
-    path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/nvim-ts-context-commentstring",
-    url = "https://github.com/JoosepAlviste/nvim-ts-context-commentstring"
-  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
@@ -214,11 +204,6 @@ _G.packer_plugins = {
     path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/rainbow",
     url = "https://github.com/luochen1990/rainbow"
   },
-  syntastic = {
-    loaded = true,
-    path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/syntastic",
-    url = "https://github.com/vim-syntastic/syntastic"
-  },
   tagbar = {
     loaded = true,
     path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/tagbar",
@@ -234,11 +219,6 @@ _G.packer_plugins = {
     path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
   },
-  ["vim-better-whitespace"] = {
-    loaded = true,
-    path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/vim-better-whitespace",
-    url = "https://github.com/ntpeters/vim-better-whitespace"
-  },
   ["vim-gas"] = {
     loaded = true,
     path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/vim-gas",
@@ -253,11 +233,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/vim-lion",
     url = "https://github.com/tommcdo/vim-lion"
-  },
-  ["vim-polyglot"] = {
-    loaded = true,
-    path = "/Users/jonathan/.local/share/nvim/site/pack/packer/start/vim-polyglot",
-    url = "https://github.com/sheerun/vim-polyglot"
   },
   ["vim-racket"] = {
     loaded = true,

@@ -74,11 +74,15 @@ return packer.startup(function(use)
   -- Popup windows
   use 'nvim-lua/popup.nvim'
 
-  use 'sheerun/vim-polyglot'
+  --better commenting commands
   use 'numToStr/Comment.nvim'
+
+  --color theme
   use 'ellisonleao/gruvbox.nvim'
+
+  -- commnands for wrapping text in stuff
   use 'windwp/nvim-autopairs'
-  use 'JoosepAlviste/nvim-ts-context-commentstring'
+
 
   --File viewer
   use "kyazdani42/nvim-tree.lua"
@@ -123,7 +127,7 @@ return packer.startup(function(use)
   use  "nvim-telescope/telescope.nvim"
 
   -- Treesitter
-  use "nvim-treesitter/nvim-treesitter"
+  --use "nvim-treesitter/nvim-treesitter"
 
   -- Git
   use  "lewis6991/gitsigns.nvim"

@@ -20,7 +20,7 @@ vim.g.mapleader = " "
 
 vim.opt.guioptions = "cimgIk"
 
-vim.opt.mouse = "a"
+--vim.opt.mouse = "a"
 
 vim.opt.termguicolors = true
 vim.opt.cmdheight = 1                           -- more space in the neovim command line for displaying messages
@@ -28,7 +28,7 @@ vim.opt.completeopt = { "menuone", "noselect" } -- mostly just for cmp
 vim.opt.guifont = "monospace:h17"               -- the font used in graphical neovim applications
 vim.opt.conceallevel = 0                        -- so that `` is visible in markdown files
 vim.opt.pumheight = 10                          -- pop up menu height
-vim.opt.showtabline = 0                         -- always show tabs
+vim.opt.showtabline = 1                          -- always show tabs
 vim.opt.splitright = true                       -- force all vertical splits to go to the right of current window
 
 vim.opt.smartcase = true                        -- smart case
