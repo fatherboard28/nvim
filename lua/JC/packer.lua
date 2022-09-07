@@ -105,6 +105,9 @@ return packer.startup(function(use)
   -- Project manager
   use "ahmedkhalf/project.nvim"
 
+  -- flaoterm
+  use 'voldikss/vim-floaterm'
+
   --cmp
   use  "hrsh7th/nvim-cmp" -- The completion plugin
   use  "hrsh7th/cmp-buffer" -- buffer completions
